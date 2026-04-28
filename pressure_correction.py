@@ -8,7 +8,7 @@ start_time = tt.time()
 num_year=int(input("Enter the year:"))
 direction_value = int(input("Enter the direction number: "))
 
-t=np.load(f"/home/surojit/Desktop/Muangle_plot/Data/Pres_TIME_MUON_S0_M0_{2000+20}.npy")
+t=np.load(f"/home/surojit/Desktop/Muangle_plot/Data/Pres_TIME_MUON_S0_M0_{2000+num_year}.npy")
 
 if num_year%4==0:
 	monthDays = np.array([31, 29, 31, 30, 31, 30, 31, 31, 30,31,30,31])
